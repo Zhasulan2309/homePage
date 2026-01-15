@@ -1,0 +1,70 @@
+.appHeader {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  height: 88px;
+  padding: 0;
+  background: #fff !important;
+  border-bottom: 1px solid #e6eef7;
+  display: flex;
+  align-items: center;
+}
+
+.appHeader__logoFixed {
+  position: absolute;
+  left: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.appHeader__logoFixed img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.appHeader__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 400px; /* место под лого */
+  padding-right: 24px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.appHeader__menu {
+  flex: 1;
+  min-width: 0;
+  border-bottom: none !important;
+  background: transparent !important;
+}
+
+.appHeader__menu .ant-menu-item {
+  font-weight: 600;
+  color: #0b3c7d;
+}
+
+.appHeader__menu .ant-menu-item-selected {
+  color: #1e6bd6 !important;
+}
+
+@media (max-width: 768px) {
+  .appHeader {
+    height: 64px;
+  }
+
+  .appHeader__logoFixed img {
+    height: 40px;
+  }
+
+  .appHeader__container {
+    padding-left: 96px;
+  }
+}

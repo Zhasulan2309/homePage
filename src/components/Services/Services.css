@@ -1,0 +1,116 @@
+.servicesAntd {
+  background: #ffffff;
+}
+
+.servicesAntd__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 72px 24px;
+}
+
+.servicesAntd__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.servicesAntd__kicker {
+  margin: 0 0 10px 0;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #e9f2ff;
+  color: #0b3c7d;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.servicesAntd__title {
+  margin: 0 !important;
+  letter-spacing: -0.4px;
+}
+
+.servicesAntd__subtitle {
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  color: #3a4a63;
+  max-width: 680px;
+}
+
+.servicesAntd__card {
+  border-radius: 18px;
+  border: 1px solid #e8f1ff;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 14px 34px rgba(11, 60, 125, 0.06);
+}
+
+.servicesAntd__cardTop {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.servicesAntd__icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+
+  background: radial-gradient(closest-side, rgba(30, 107, 214, 0.25), transparent 70%),
+    linear-gradient(135deg, rgba(30, 107, 214, 0.92), rgba(11, 60, 125, 0.92));
+  box-shadow: 0 10px 22px rgba(30, 107, 214, 0.22);
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.servicesAntd__cardTitle {
+  font-weight: 900;
+  color: #0b3c7d;
+  font-size: 16px;
+}
+
+.servicesAntd__cardText {
+  margin-top: 12px;
+  color: #3a4a63;
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+.servicesAntd__list {
+  margin: 14px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.servicesAntd__list li {
+  color: #5b6b82;
+  font-size: 13px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.servicesAntd__list li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #1e6bd6;
+  flex: 0 0 8px;
+}
+
+@media (max-width: 768px) {
+  .servicesAntd__container {
+    padding: 56px 16px;
+  }
+
+  .servicesAntd__head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

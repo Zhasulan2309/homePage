@@ -1,0 +1,128 @@
+.whyUs {
+  background: #f5f9ff;
+}
+
+.whyUs__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 72px 24px;
+}
+
+.whyUs__kicker {
+  margin: 0 0 10px 0;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #e9f2ff;
+  color: #0b3c7d;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.whyUs__title {
+  margin: 0 !important;
+  letter-spacing: -0.4px;
+}
+
+.whyUs__subtitle {
+  margin-top: 10px !important;
+  color: #3a4a63;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.whyUs__stats {
+  margin-top: 18px;
+}
+
+.whyUs__statCard {
+  border-radius: 14px;
+  border: 1px solid #eef4ff;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.whyUs__card {
+  border-radius: 18px;
+  border: 1px solid #e8f1ff;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 14px 34px rgba(11, 60, 125, 0.06);
+}
+
+.whyUs__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+
+  background: radial-gradient(closest-side, rgba(30, 107, 214, 0.25), transparent 70%),
+    linear-gradient(135deg, rgba(30, 107, 214, 0.92), rgba(11, 60, 125, 0.92));
+  box-shadow: 0 10px 22px rgba(30, 107, 214, 0.18);
+  color: #ffffff;
+  font-size: 18px;
+  flex: 0 0 40px;
+}
+
+.whyUs__cardTitle {
+  font-weight: 900;
+  color: #0b3c7d;
+  font-size: 16px;
+  margin-top: 1px;
+}
+
+.whyUs__cardText {
+  margin-top: 6px;
+  color: #3a4a63;
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+/* Banner */
+.whyUs__banner {
+  margin-top: 16px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(30, 107, 214, 0.12), rgba(11, 60, 125, 0.10));
+  border: 1px solid #dbe8fb;
+}
+
+.whyUs__bannerTitle {
+  font-weight: 900;
+  color: #0b3c7d;
+  font-size: 16px;
+}
+
+.whyUs__bannerText {
+  margin-top: 6px;
+  color: #3a4a63;
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+.whyUs__bannerBtn {
+  margin-top: 12px;
+  display: inline-flex;
+  height: 42px;
+  padding: 0 14px;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+
+  color: #fff;
+  background: linear-gradient(135deg, #1e6bd6, #0b3c7d);
+  box-shadow: 0 10px 24px rgba(30, 107, 214, 0.18);
+}
+
+.whyUs__bannerBtn:hover {
+  filter: brightness(0.98);
+}
+
+@media (max-width: 768px) {
+  .whyUs__container {
+    padding: 56px 16px;
+  }
+}

@@ -1,0 +1,125 @@
+.contacts {
+  background: linear-gradient(180deg, #ffffff 0%, #f5f9ff 100%);
+}
+
+.contacts__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 72px 24px;
+}
+
+.contacts__kicker {
+  margin: 0 0 10px 0;
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #e9f2ff;
+  color: #0b3c7d;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.contacts__title {
+  margin: 0 !important;
+  letter-spacing: -0.4px;
+}
+
+.contacts__subtitle {
+  margin-top: 10px !important;
+  color: #3a4a63;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.contacts__list {
+  margin-top: 24px;
+}
+
+.contacts__item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  font-size: 16px;
+}
+
+.contacts__item svg {
+  font-size: 20px;
+  color: #1e6bd6;
+  margin-top: 2px;
+}
+
+.contacts__item a {
+  color: #0b3c7d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contacts__item a:hover {
+  text-decoration: underline;
+}
+
+/* Right card */
+.contacts__card {
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(30, 107, 214, 0.12),
+    rgba(11, 60, 125, 0.10)
+  );
+  border: 1px solid #dbe8fb;
+  box-shadow: 0 16px 40px rgba(11, 60, 125, 0.12);
+}
+
+.contacts__cardTitle {
+  margin: 0 !important;
+  font-weight: 900 !important;
+  color: #0b3c7d !important;
+}
+
+.contacts__cardText {
+  margin-top: 10px !important;
+  color: #3a4a63;
+  line-height: 1.6;
+}
+
+.contacts__cta {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.contacts__ctaBtn {
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+
+  color: #fff;
+  background: linear-gradient(135deg, #1e6bd6, #0b3c7d);
+  box-shadow: 0 10px 24px rgba(30, 107, 214, 0.22);
+}
+
+.contacts__ctaBtn--ghost {
+  background: #ffffff;
+  color: #0b3c7d;
+  border: 1px solid #dbe8fb;
+  box-shadow: none;
+}
+
+.contacts__ctaBtn:hover {
+  filter: brightness(0.98);
+}
+
+@media (max-width: 768px) {
+  .contacts__container {
+    padding: 56px 16px;
+  }
+}
