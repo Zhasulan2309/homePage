@@ -32,7 +32,7 @@ export default function Contacts() {
                 <div>
                   <Text strong>Телефон</Text>
                   <br />
-                  <a href="tel:+77001234567">+7 (700) 123-45-67</a>
+                  <a href="tel:+77053391555">+7 705 339 15 55</a>
                 </div>
               </div>
 
@@ -41,7 +41,7 @@ export default function Contacts() {
                 <div>
                   <Text strong>Email</Text>
                   <br />
-                  <a href="mailto:info@technorium.kz">info@technorium.kz</a>
+                  <a href="mailto:info.technorium@gmail.com">info.technorium@gmail.com</a>
                 </div>
               </div>
 
@@ -50,7 +50,7 @@ export default function Contacts() {
                 <div>
                   <Text strong>Город</Text>
                   <br />
-                  <Text>Казахстан, Астана</Text>
+                  <Text>Казахстан, Алматы</Text>
                 </div>
               </div>
 
@@ -78,11 +78,11 @@ export default function Contacts() {
               </Paragraph>
 
               <div className="contacts__cta">
-                <a href="tel:+77001234567" className="contacts__ctaBtn">
+                <a href="tel:+7 705 339 15 55" className="contacts__ctaBtn">
                   Позвонить
                 </a>
                 <a
-                  href="mailto:info@technorium.kz"
+                  href="mailto:info.technorium@gmail.com"
                   className="contacts__ctaBtn contacts__ctaBtn--ghost"
                 >
                   Написать письмо
