@@ -20,7 +20,7 @@
 }
 
 .appHeader__logoFixed img {
-  height: 140px;
+  height: 80px;
   width: auto;
   object-fit: contain;
   display: block;
