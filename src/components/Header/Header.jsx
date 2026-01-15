@@ -1,6 +1,6 @@
 import { Layout, Menu, Button, Space } from "antd";
 import { PhoneOutlined } from "@ant-design/icons";
-import logo from "@/assets/logo.png";
+import logo from "../../assets/logo.png";
 import "./Header.css";
 
 const items = [
